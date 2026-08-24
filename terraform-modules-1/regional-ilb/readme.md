@@ -38,7 +38,7 @@ HTTP forwarding rule
 # sample root module code
 
 module "internal_ilb" {
-  source = "git::https://github.com/Engage-Cloud-Delivery/terraform-modules.git//regional-ilb?ref=main"
+  source = "git::https://terraform-modules.git//regional-ilb?ref=main"
 
   project_id = local.application_project_id
   region     = local.region
