@@ -32,7 +32,7 @@ You do not need a Serverless NEG or Backend Service created by this module.
 # sample root module code
 ### Example
 module "cloud_run" {
-  source = "git::https://github.com/Engage-Cloud-Delivery/terraform-modules.git//cloudrun?ref=main"
+  source = "git::https://github.com//cloudrun?ref=main"
   project_id = local.application_project_id
   region = local.region
   service_name = "test-prod"
