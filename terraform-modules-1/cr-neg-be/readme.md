@@ -31,7 +31,7 @@ You want multiple Cloud Run services standardized using for_each.
 # sample root module code
 module "cloud_run" {
   for_each = local.cloud_runs
-  source = "git::https://github.com/Engage-Cloud-Delivery/terraform-modules.git//cloudrun?ref=main"
+  source = "git::https://terraform-modules.git//cloudrun?ref=main"
   project_id   = local.application_project_id
   region        = local.region
   service_name  = each.key
