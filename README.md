@@ -1,4 +1,4 @@
-# TTEC Terraform Modules
+# Terraform Modules
 
 Reusable Terraform modules for deploying and managing GCP Cloud Run services, Serverless NEGs, Regional Backend Services, and Regional Internal Load Balancers.
 
